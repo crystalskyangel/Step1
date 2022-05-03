@@ -84,7 +84,7 @@ a.nav-link:hover{
 
 .section-hero{
   height: 650px;
-  background-image: url(/HTMLAcademy/Step1/img/hero1.jpg);
+  background-image: url(/img/hero1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -101,7 +101,7 @@ a.nav-link:hover{
   max-width: 472px;
   padding-left: 55px;
   padding-right: 55px;
-  background-image: url(/HTMLAcademy/Step1/img/section1-card.svg);
+  background-image: url(/img/section1-card.svg);
   background-size:  100% auto;
   background-repeat: no-repeat;
   display: flex;
@@ -136,7 +136,7 @@ a.nav-link:hover{
 .options-item{
   min-height: 270px;
   width: 270px;
-  background-image: url(/HTMLAcademy/Step1/img/section2-card.svg);
+  background-image: url(/img/section2-card.svg);
   background-repeat: no-repeat;
   background-size: auto 100%;
   margin-top: 90px;
@@ -220,7 +220,7 @@ a.nav-link:hover{
 
 .hypnosis{
   min-height: 652px;
-  background-image: url(/HTMLAcademy/Step1/img/hero2.jpg); 
+  background-image: url(/img/hero2.jpg); 
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -236,7 +236,7 @@ a.nav-link:hover{
   max-width: 470px;
   padding-left: 55px;
   padding-right: 105px;
-  background-image: url(/HTMLAcademy/Step1/img/section4-card.svg);
+  background-image: url(/img/section4-card.svg);
   display: flex;
   flex: 1 1 50%;
   justify-content: center;
@@ -331,7 +331,7 @@ a.nav-link:hover{
 
 .result-item1{
   display: block;
-  background-image: url(/HTMLAcademy/Step1/img/hero4.jpg);
+  background-image: url(/img/hero4.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   margin-top: 90px;
@@ -343,7 +343,7 @@ a.nav-link:hover{
 }
 
 .item2{
-  background-image: url(/HTMLAcademy/Step1/img/section6-card.svg);
+  background-image: url(/img/section6-card.svg);
   margin-top: 90px;
   margin-bottom: 90px;
   padding-top: 50px;
@@ -404,7 +404,7 @@ a.nav-link:hover{
 }
 
 .specialists-item{
-  background-image: url(/HTMLAcademy/Step1/img/section7-card.svg);
+  background-image: url(/img/section7-card.svg);
   background-repeat: no-repeat;
   background-size: cover;
   width: 370px;
