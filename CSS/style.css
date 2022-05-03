@@ -84,7 +84,7 @@ a.nav-link:hover{
 
 .section-hero{
   height: 650px;
-  background-image: url(/img/hero1.jpg);
+  background-image: url(../img/hero1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
