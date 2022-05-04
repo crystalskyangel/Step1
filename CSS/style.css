@@ -17,10 +17,6 @@ ul{
     padding: 0;
 }
 
-img{
-    max-width: 100%;
-}
-
 .container{
     height: 100%;
     max-width: 1200px;
@@ -43,7 +39,7 @@ img{
 }
 
 .header-logo{
-  max-width: 195px;
+  width: 195px;
   margin-right: auto;
 }
 
@@ -97,16 +93,13 @@ a.nav-link:hover{
 }
 
 .section-hero-heading{
-  min-height: 472px;
-  max-width: 472px;
-  padding-left: 55px;
-  padding-right: 55px;
+  max-width: 473px;
+  padding: 137px 55px;
   background-image: url(../img/section1-card.svg);
-  background-size:  100% auto;
+  background-position: right bottom;
   background-repeat: no-repeat;
   display: flex;
-  flex: 0 1 50%;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
   font-size: 45px;
   font-weight: 200;
@@ -127,23 +120,27 @@ a.nav-link:hover{
 
 .options-list{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: stretch;
-  flex: 1 1 25%;
   flex-wrap: wrap;
 }
 
 .options-item{
   min-height: 270px;
-  width: 270px;
+  max-width: 270px;
   background-image: url(../img/section2-card.svg);
+  background-position: right bottom;
+  background-size: cover;
   background-repeat: no-repeat;
-  background-size: auto 100%;
   margin-top: 90px;
   margin-bottom: 90px;
   padding-top: 40px;
   padding-left: 30px;
   padding-right: 37px;
+}
+
+.options-item:not(:last-child){
+  margin-right: 0.2%;
 }
 
 .options-item:hover{
@@ -190,9 +187,14 @@ a.nav-link:hover{
   padding-bottom: 88px;
 }
 
+.lifestyle-img{
+  max-width: 50%;
+}
+
 .lifestyle-description{
   height: 100%;
-  padding-left: 50px;
+  max-width: 50%;
+  padding-left: 0.5%;
 }
 
 .lifestyle-heading{
@@ -220,9 +222,9 @@ a.nav-link:hover{
 
 .hypnosis{
   min-height: 652px;
-  background-image: url(../img/hero2.jpg); 
-  background-repeat: no-repeat;
+  background-image: url(../img/hero2.jpg);
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .container-hypnosis{
@@ -237,8 +239,10 @@ a.nav-link:hover{
   padding-left: 55px;
   padding-right: 105px;
   background-image: url(../img/section4-card.svg);
+  background-position: right bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
   display: flex;
-  flex: 1 1 50%;
   justify-content: center;
   align-items: center;
   font-size: 45px;
@@ -255,7 +259,7 @@ a.nav-link:hover{
 
 .container-to-know{
   padding-top: 80px;
-  padding-bottom: 90px;
+  padding-bottom: 80px;
 }
 
 .to-know-heading{
@@ -269,12 +273,17 @@ a.nav-link:hover{
 
 .to-know-list{
   display: flex;
-  justify-content: space-between;
+  justify-content:space-around;
+  align-items: stretch;
+}
+
+.to-know-item{
+  max-width: 30%;
   align-items: stretch;
 }
 
 .to-know-item:not(:last-child){
-  margin-right: 78px;
+  margin-right: 2%;
 }
 
 .to-know-item-heading{
@@ -319,6 +328,7 @@ a.nav-link:hover{
 }
 
 .container-result{
+  max-width: 1118px;
   height: 100%;
 }
 
@@ -331,6 +341,7 @@ a.nav-link:hover{
 
 .result-item1{
   display: block;
+  max-width: 50%;
   background-image: url(../img/hero4.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -343,7 +354,12 @@ a.nav-link:hover{
 }
 
 .item2{
+  display: block;
+  max-width: 50%;
   background-image: url(../img/section6-card.svg);
+  background-position: right bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
   margin-top: 90px;
   margin-bottom: 90px;
   padding-top: 50px;
@@ -403,15 +419,25 @@ a.nav-link:hover{
   align-items: stretch;
 }
 
+.specialists-item:not(:last-child){
+  margin-right: 2%;
+}
+
 .specialists-item{
   background-image: url(../img/section7-card.svg);
-  background-repeat: no-repeat;
+  background-position: right bottom;
   background-size: cover;
-  width: 370px;
+  background-repeat: no-repeat;
+  max-width: 370px;
   min-height: 270px;
   padding-top: 30px;
   padding-right: 30px;
   padding-left: 30px;
+}
+
+.specialists-item:hover{
+  background-color: #9cc038;
+  background-image: none;
 }
 
 .specialists-item-img{
@@ -492,7 +518,9 @@ a.nav-link:hover{
 }
 
 .footer-nav-in-logo{
+  max-width: 195px;
   margin-right: 22px;
+  transform: translateY(-4px);
 }
 
 .copyrights{
