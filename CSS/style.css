@@ -50,7 +50,7 @@ ul{
 .nav-list{
   height: 100%;
   display: flex;
-  flex: 1 1 50%;
+  flex: 1 1 auto;
 }
 
 .nav-item:not(:last-child){
@@ -96,7 +96,7 @@ a.nav-link:hover{
   background: url(../img/section1-card.svg) right bottom;
   background-repeat: no-repeat;
   display: flex;
-  flex: 1 1 40%;
+  flex: 1 1 auto;
   justify-content: center;
   align-items: center;
   font-size: 45px;
