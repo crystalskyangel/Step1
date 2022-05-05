@@ -91,6 +91,9 @@ a.nav-link:hover{
 }
 
 .hero-content{
+  display: flex;
+  justify-content: end;
+  align-items: center;
   max-width: 40%;
 }
 
