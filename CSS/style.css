@@ -92,7 +92,7 @@ a.nav-link:hover{
 
 .hero-content{
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   align-items: center;
   max-width: 40%;
 }
