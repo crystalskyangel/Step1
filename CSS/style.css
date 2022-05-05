@@ -50,7 +50,7 @@ ul{
 .nav-list{
   height: 100%;
   display: flex;
-  flex: 1 1 35px;
+  flex: 1 1 50%;
 }
 
 .nav-item:not(:last-child){
@@ -80,25 +80,23 @@ a.nav-link:hover{
 
 .section-hero{
   height: 650px;
-  background-image: url(../img/hero1.jpg);
+  background: url(../img/hero1.jpg) center center no-repeat transparent;
   background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .container-hero{
   display: flex;
   align-items: center;
-  justify-content: end;
-  
+  justify-content: end; 
 }
 
 .section-hero-heading{
   max-width: 473px;
   padding: 137px 55px;
-  background-image: url(../img/section1-card.svg);
-  background-position: right bottom;
+  background: url(../img/section1-card.svg) right bottom;
   background-repeat: no-repeat;
   display: flex;
+  flex: 1 1 40%;
   justify-content: center;
   align-items: center;
   font-size: 45px;
@@ -122,16 +120,13 @@ a.nav-link:hover{
   display: flex;
   justify-content: space-evenly;
   align-items: stretch;
-  flex-wrap: wrap;
 }
 
 .options-item{
   min-height: 270px;
   max-width: 270px;
-  background-image: url(../img/section2-card.svg);
-  background-position: right bottom;
+  background: url(../img/section2-card.svg) right bottom no-repeat transparent;
   background-size: cover;
-  background-repeat: no-repeat;
   margin-top: 90px;
   margin-bottom: 90px;
   padding-top: 40px;
@@ -222,12 +217,12 @@ a.nav-link:hover{
 
 .hypnosis{
   min-height: 652px;
-  background-image: url(../img/hero2.jpg);
+  background: url(../img/hero2.jpg) left center no-repeat transparent;
   background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .container-hypnosis{
+  min-height: 652px;
   display: flex;
   justify-content: end;
   align-items: center;
@@ -238,10 +233,8 @@ a.nav-link:hover{
   max-width: 470px;
   padding-left: 55px;
   padding-right: 105px;
-  background-image: url(../img/section4-card.svg);
-  background-position: right bottom;
+  background: url(../img/section4-card.svg) right bottom no-repeat transparent;
   background-size: cover;
-  background-repeat: no-repeat;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -356,10 +349,8 @@ a.nav-link:hover{
 .item2{
   display: block;
   max-width: 50%;
-  background-image: url(../img/section6-card.svg);
-  background-position: right bottom;
+  background: url(../img/section6-card.svg) right bottom no-repeat transparent;
   background-size: cover;
-  background-repeat: no-repeat;
   margin-top: 90px;
   margin-bottom: 90px;
   padding-top: 50px;
@@ -424,10 +415,8 @@ a.nav-link:hover{
 }
 
 .specialists-item{
-  background-image: url(../img/section7-card.svg);
-  background-position: right bottom;
+  background: url(../img/section7-card.svg) right bottom no-repeat transparent;
   background-size: cover;
-  background-repeat: no-repeat;
   max-width: 370px;
   min-height: 270px;
   padding-top: 30px;
